@@ -75,7 +75,7 @@ int main(){
 
 
 
-//Imprimir o sucessor e antecessor de um número:
+//Imprimir o sucessor e antecessor de um número
 
 int main(){
 	int a,b,c;
