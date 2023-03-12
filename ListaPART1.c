@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-//Imprimir o algorismo da casa das dezenas com uma entrada de 3 números:
+//Imprimir o algorismo da casa das dezenas com uma entrada de 3 nÃºmeros:
 
 int main(){
 	int numero, centena, dezena, resto;
@@ -50,7 +50,7 @@ int main(){
 
 
 
-//Média aritmética entre 3 números:
+//MÃ©dia aritmÃ©tica entre 3 nÃºmeros:
 
 int main(){
 	int a, b, c, media;
@@ -62,7 +62,7 @@ int main(){
 
 
 
-//Ler dois números inteiros:
+//Ler dois nÃºmeros inteiros:
 
 int main(){
 	int a,b;
@@ -75,7 +75,7 @@ int main(){
 
 
 
-//Imprimir o sucessor e antecessor de um número:
+//Imprimir o sucessor e antecessor de um nÃºmero:
 
 int main(){
 	int a,b,c;
