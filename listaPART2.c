@@ -72,3 +72,69 @@ int main(){
 } 
 
 
+
+//Dois númmeros inteiros e imprimir o dividendo, divisor, quociente e resto:
+
+int main(){
+	int divi, divisor, quoci, resto;
+	printf("Digite um numero a ser dividido: ");
+	scanf("%d", &divi);
+	
+	printf("Digite um numero por qual ele vai ser dividido: ");
+	scanf("%d", &divisor);
+	
+	quoci = divi/divisor;
+	
+	resto = divi%divisor;
+	
+	printf("O dividendo %d e o divisor %d tem o quociente igual a %d \n Com o resto %d", divi, divisor, quoci, resto);
+}
+
+
+
+
+//entrada de quatro numeros para se ter uma media de ponderada, os pesos são 1,2,3 e 4:
+
+int main(){
+	int a=1, b=2, c=3, d=4, soma1, soma2, media, valor;
+	printf("informe um valor para ser ter a media ponderada: ");
+	scanf("%d", &valor);
+	
+	soma1 = (a*valor)+(b*valor)+(c*valor)+(d*valor);
+	soma2= a+b+c+d;
+	media = soma1/soma2;
+
+	
+	printf("a media ponderada e: %d", media);
+	
+}
+
+
+
+//entrar com angulos e imprimir, seno, cosseno, tangente, secante, cossecante e cotangente:
+
+int main (){
+	float a, b, c=0,sen, cos, tan, sec, csc, cot;
+	printf("informe a hipotenusa: ");
+	scanf("%f", &a);
+	
+	printf("informe o cateto oposto: ");
+	scanf("%f", &b);
+	
+	sen = b/a;
+	cos= c/a;
+	tan= b/c;
+	sec= 1/cos;
+	csc= 1/sen;
+	cot= (1/tan)/(cos/sen);
+	
+	printf("seno: %f \n", sen);
+	printf("cosseno: %f \n", cos);
+	printf("tangente: %f \n", tan);
+	printf("secante: %f \n", sec);
+	printf("cossecante: %f \n",csc);
+	printf("cotangente: %f \n", cot);
+	
+	return (0);
+}
+
