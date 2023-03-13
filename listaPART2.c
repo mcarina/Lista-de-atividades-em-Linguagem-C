@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// ler nome, endereço e telefone:
+// ler nome, endereÃ§o e telefone:
 
 int main(){
 	char nome[14], end[14], tel[12];
@@ -23,7 +23,7 @@ int main(){
 
 
 
-// ler dois números inteiros e aparecer a soma antes do resultado:
+// ler dois nÃºmeros inteiros e aparecer a soma antes do resultado:
 
 int main(){
 	int a,b,c;
@@ -42,7 +42,7 @@ int main(){
 
 
 
-//ler um numero real e imprimir a terça parte do número:
+//ler um numero real e imprimir a terÃ§a parte do nÃºmero:
 
 int main(){
 	float Nreal, resultado;
@@ -56,7 +56,7 @@ int main(){
 
 
 
-//ler dois números reais e exibir a média aritméticos com a mensagem da antes do resultado:
+//ler dois nÃºmeros reais e exibir a mÃ©dia aritmÃ©ticos com a mensagem da antes do resultado:
 
 int main(){
 	float nota1, nota2, media;
