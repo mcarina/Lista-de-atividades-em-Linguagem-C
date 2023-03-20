@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+
 
 // ler nome, endereço e telefone:
 
@@ -138,3 +140,124 @@ int main (){
 	return (0);
 }
 
+
+
+//Imprimir números com a base 10:
+
+int main(){
+	int num, resul;
+	printf("Digite um numero: ");
+	scanf("%d", &num);
+	
+	resul = num/10;
+	
+	printf("Numero com a base 10: %d", resul);
+}
+ 
+ 
+ //entra com um numero é a base a ser usada:  
+
+int main(){
+	int num, base, resul;
+	printf("Digite um numero: ");
+	scanf("%d", &num);
+	
+	printf("Digite a base: ");
+	scanf("%d", &base);
+	
+	resul = num/base;
+	
+	printf("Numero com a base 10: %d", resul);
+}
+
+
+
+
+//Fazer um algoritmo que possa entrar com o saldo de uma aplicação e imprima o novo saldo, considerando o reajuste de 1%:
+
+int main(){
+	double saldo, reajuste;
+	printf("digite o saldo: ");
+	scanf("%f", &saldo);
+	
+	reajuste = saldo*(1+1/100);
+	
+	printf("o saldo com reajuste ficou %f reais", reajuste);
+}
+
+
+
+//Entrar com um número em um formato e imprimir invertido:
+
+int main(){
+	int i=1;
+	printf("Digite um numero para ser invertido: ");
+	scanf("$%d", &i);
+	
+	while(i <= 3){
+	printf("%d", i);
+	i++;
+	}	
+}
+
+
+
+//
+
+int main(){
+	float sm, desc, valorf, valorp, kw, uKW;
+	printf("Digite o salario minimo: ");
+	scanf("%f", &sm);
+	
+	printf("kw gasto por residencia: ");
+	scanf("%f", &kw);
+	
+	printf("Valor do Desconto: ");
+	scanf("%f", &desc);
+	
+	uKW = (sm/7)/100;
+	valorp = uKW*kw;
+	desc= (valorp*10)/100;
+	valorf = valorp - desc;
+	
+	printf("Valor em reais por kw: %.2f \n", uKW);
+	printf("Valor a ser pago: %.2f \n", valorp);
+	printf("Valor com desconto: %.2f \n", valorf);
+	
+}
+
+
+
+
+/* Entrar com um nome e imprimir: 
+todo nome: 
+primeiro caractere: 
+ultimo caractere: 
+do primeiro ate o terceiro: 
+quarto caractere: 
+todos menos o primeiro: 
+os dois ultimos: */
+
+
+
+/* Entrar com a base e a altura de um retângulo e imprimir a seguinte saída: perimetro, area e diagonal:*/
+ 
+ 
+ int main(){
+ 	int a, b, h, p, d, raiz;
+ 	printf("digite a base: ");
+ 	scanf("%d", &b);
+ 	
+ 	printf("digite a altura: ");
+ 	scanf("%d", &h);
+ 	
+ 	p = 2*(b+h);
+ 	a = b*h;
+ 	d = (h*h)+(b*b);
+ 	raiz = sqrt(d);
+ 	
+ 	printf("Perimetro: %d \n", p);
+ 	printf("Area: %d \n", a);
+ 	printf("Diagonal: %d \n",raiz);
+ 	
+ }
